@@ -1,0 +1,6 @@
+io\esrom\maprion\jpa\TupleRowSource.class
+io\esrom\maprion\jpa\TupleRowSource$MapRowContext.class
+io\esrom\maprion\springbootstarter\MaprionEntityManagerAutoConfiguration.class
+io\esrom\maprion\spring\MaprionSpringMapper.class
+io\esrom\maprion\jpa\MaprionJpa.class
+io\esrom\maprion\autoconfigure\MaprionAutoConfiguration.class

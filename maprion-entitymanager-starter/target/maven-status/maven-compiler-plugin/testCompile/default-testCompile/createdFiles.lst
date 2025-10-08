@@ -1,0 +1,5 @@
+io\esrom\maprion\jpa\CustomerTypeDTO.class
+io\esrom\maprion\jpa\OrderItemDTO.class
+io\esrom\maprion\jpa\AddressDTO.class
+io\esrom\maprion\jpa\OrderDTO.class
+io\esrom\maprion\jpa\MaprionEntityManagerIntegrationTest.class
