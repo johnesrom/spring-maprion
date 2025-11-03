@@ -22,6 +22,42 @@ public final class DefaultConverters {
                         return "1".equals(s) || "true".equals(s) || "t".equals(s) || "y".equals(s);
                     }
                 },
+                new Simple(Long.class) {
+                    @Override public Object convert(Object v, Class<?> t) {
+                        if (v instanceof Number n) return n.longValue();
+                        return Long.parseLong(v.toString());
+                    }
+                },
+                new Simple(Integer.class) {
+                    @Override public Object convert(Object v, Class<?> t) {
+                        if (v instanceof Number n) return n.intValue();
+                        return Integer.parseInt(v.toString());
+                    }
+                },
+                new Simple(Double.class) {
+                    @Override public Object convert(Object v, Class<?> t) {
+                        if (v instanceof Number n) return n.doubleValue();
+                        return Double.parseDouble(v.toString());
+                    }
+                },
+                new Simple(Float.class) {
+                    @Override public Object convert(Object v, Class<?> t) {
+                        if (v instanceof Number n) return n.floatValue();
+                        return Float.parseFloat(v.toString());
+                    }
+                },
+                new Simple(Short.class) {
+                    @Override public Object convert(Object v, Class<?> t) {
+                        if (v instanceof Number n) return n.shortValue();
+                        return Short.parseShort(v.toString());
+                    }
+                },
+                new Simple(Byte.class) {
+                    @Override public Object convert(Object v, Class<?> t) {
+                        if (v instanceof Number n) return n.byteValue();
+                        return Byte.parseByte(v.toString());
+                    }
+                },
                 new Simple(Instant.class) {
                     @Override public Object convert(Object v, Class<?> t) {
                         if (v instanceof Timestamp ts) return ts.toInstant();
