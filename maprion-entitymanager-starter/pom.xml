@@ -5,7 +5,7 @@
       <parent>
         <groupId>io.esrom.maprion</groupId>
         <artifactId>maprion-entitymanager-parent</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
       </parent>
       <artifactId>maprion-entitymanager-starter</artifactId>
       <name>Maprion Spring Boot Starter (EntityManager)</name>
@@ -13,7 +13,7 @@
           <dependency>
               <groupId>io.esrom.maprion</groupId>
               <artifactId>maprion-core</artifactId>
-              <version>1.0.2</version> <!-- Agora igual ao pai -->
+              <version>1.0.3</version> <!-- Agora igual ao pai -->
           </dependency>
           <dependency>
           <groupId>org.springframework.boot</groupId>

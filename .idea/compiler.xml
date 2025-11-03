@@ -10,5 +10,8 @@
         <module name="maprion-core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maprion-entitymanager-parent" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
